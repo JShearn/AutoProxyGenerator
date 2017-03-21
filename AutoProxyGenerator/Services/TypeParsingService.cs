@@ -8,6 +8,9 @@ using AutoProxyGenerator.Attributes;
 
 namespace AutoProxyGenerator.Services
 {
+
+    // This is just an example, you will want to either extend this or implement your own IInterceptorSource
+
     public class TypeParsingService : IInterceptorSource
     {
         private Type _typeToParse;

@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{9921B7D3-25CE-403A-9708-B70AA295EB11}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoProxyGenerator", "AutoProxyGenerator\AutoProxyGenerator.csproj", "{9C1ADD8A-AE01-4F44-9028-61CBBA2E58C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoProxyGenerator.Tests", "..\AutoProxyGenerator.Tests\AutoProxyGenerator.Tests.csproj", "{4D9345DD-FCEE-4D0A-9E41-EFEAEE4D7E6C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{9921B7D3-25CE-403A-9708-B70AA295EB11}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoProxyGenerator.Tests", "AutoProxyGenerator.Tests\AutoProxyGenerator.Tests.csproj", "{4D9345DD-FCEE-4D0A-9E41-EFEAEE4D7E6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +15,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9921B7D3-25CE-403A-9708-B70AA295EB11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9921B7D3-25CE-403A-9708-B70AA295EB11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9921B7D3-25CE-403A-9708-B70AA295EB11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9921B7D3-25CE-403A-9708-B70AA295EB11}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9C1ADD8A-AE01-4F44-9028-61CBBA2E58C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9C1ADD8A-AE01-4F44-9028-61CBBA2E58C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C1ADD8A-AE01-4F44-9028-61CBBA2E58C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -23,10 +27,6 @@ Global
 		{4D9345DD-FCEE-4D0A-9E41-EFEAEE4D7E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D9345DD-FCEE-4D0A-9E41-EFEAEE4D7E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D9345DD-FCEE-4D0A-9E41-EFEAEE4D7E6C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9921B7D3-25CE-403A-9708-B70AA295EB11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9921B7D3-25CE-403A-9708-B70AA295EB11}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9921B7D3-25CE-403A-9708-B70AA295EB11}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9921B7D3-25CE-403A-9708-B70AA295EB11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
