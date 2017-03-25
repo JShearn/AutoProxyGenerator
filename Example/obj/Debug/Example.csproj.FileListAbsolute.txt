@@ -1,8 +1,0 @@
-C:\Development\personal\AutoProxyGenerator\Example\obj\Debug\Example.csprojResolveAssemblyReference.cache
-C:\Development\personal\AutoProxyGenerator\Example\bin\Debug\Example.exe.config
-C:\Development\personal\AutoProxyGenerator\Example\bin\Debug\Example.exe
-C:\Development\personal\AutoProxyGenerator\Example\bin\Debug\Example.pdb
-C:\Development\personal\AutoProxyGenerator\Example\bin\Debug\AutoProxyGenerator.dll
-C:\Development\personal\AutoProxyGenerator\Example\bin\Debug\AutoProxyGenerator.pdb
-C:\Development\personal\AutoProxyGenerator\Example\obj\Debug\Example.exe
-C:\Development\personal\AutoProxyGenerator\Example\obj\Debug\Example.pdb

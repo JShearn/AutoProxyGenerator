@@ -11,8 +11,9 @@ namespace AutoProxyGenerator.Services
 {
     /// <summary>
     /// Executes the next interceptor, optionally transforming arguments and the return value.
-    /// IMPORTANT: IF this is being reused for multiple methods then be very careful when writing code that manipulates instance variables
-    /// They will be persisted between different methods.
+    /// IMPORTANT: These should be pure functions. 
+    /// If this is being reused for multiple methods then be very careful when writing code that manipulates instance variables
+    /// They will be persisted between different methods. 
     /// </summary>
     public interface IMethodInterceptor
     {
